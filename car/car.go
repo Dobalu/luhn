@@ -2,6 +2,7 @@ package car
 
 import "fmt"
 
+// Declares the Car struct to house the concept of a car
 type Car struct {
 	Name       string
 	Doors      int
