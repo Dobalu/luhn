@@ -59,11 +59,7 @@ func funkybaby(perchance bool, yep string) {
 	return
 }
 
-// Declare function
-// Name function
-// Specify function arguments and argument type within parens
-// Specify function return type
-// Insert function code into curly brace
+// Determines if a credit card number is valid or invalid using the Luhn algorithm
 func isLuhn(cardNumber string) bool {
 	var sum int
 	parity := len(cardNumber) % 2
